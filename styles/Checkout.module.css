@@ -1,0 +1,52 @@
+.container {
+  padding: 0 2rem;
+}
+
+.item {
+  padding: 20px;
+  display: flex;
+  border: solid #00f;
+  margin: 5px 0;
+}
+
+.itemLabel {
+  font-size: 18px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  color: green;
+}
+
+.itemDescription {
+  font-size: 14px;
+  color: black;
+}
+
+.itemInput {
+  width: 50px;
+  height: 30px;
+}
+
+.promotion {
+  margin: 0 10px;
+}
+
+.total {
+  text-align: right;
+  margin: 10px 0;
+}
+
+.submitButton {
+  background-color: blue;
+  color: white;
+  padding: 10px 30px;
+  float: right;
+  font-weight: bold;
+}
+
+@media (prefers-color-scheme: dark) {
+  .itemDescription {
+    color: white;
+  }
+}
+
