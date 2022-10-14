@@ -1,0 +1,31 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Small Pizza",
+      "description": "10'' pizza for one person",
+      "price": 11.99,
+      "promotions": [{
+        "type": "GET_FREE_ITEM",
+        "description": "Get {free} free for {buy} deal",
+        "buy": 2,
+        "free": 1,
+        "freeProduct": [],
+        "isBuySameProduct": true,
+        "isFreeSameProduct": true
+      }]
+    },
+    {
+      "id": 2,
+      "name": "Medium Pizza",
+      "description": "12'' Pizza for two persons",
+      "price": 15.99
+    },
+    {
+      "id": 3,
+      "name": "Large Pizza",
+      "description": "15'' Pizza for four persons",
+      "price": 21.99
+    }
+  ]
+}
